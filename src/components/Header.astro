@@ -1,0 +1,44 @@
+---
+import { Icon } from 'astro-icon';
+
+interface Props {}
+const {} = Astro.props;
+---
+
+<nav class="h-full flex flex-row items-center mx-16">
+	<div class="basis-1/4">
+		<a class="text-4xl font-bold font-righteous" href="/">Prism Labs</a>
+	</div>
+
+	<div class="basis-2/4 flex flex-row gap-4 justify-center">
+		<a class="text-lg" href="/">Home</a>
+		<a class="text-lg" href="/about">About</a>
+		<a class="text-lg" href="/projects">Projects</a>
+	</div>
+
+	<div class="basis-1/4 flex flex-row justify-end gap-2">
+		<a target="_blank" href="https://github.com/PrismLabsDev"
+			><Icon class="w-7" name="mdi:github" /></a
+		>
+		<a target="_blank" href="https://mastodon.social/@PrismLabs"
+			><Icon class="w-7" name="mdi:mastodon" /></a
+		>
+		<a target="_blank" href="https://twitter.com/PrismLabsDev"
+			><Icon class="w-7" name="mdi:twitter" /></a
+		>
+		<a target="_blank" href="https://www.reddit.com/user/PrismLabs"
+			><Icon class="w-7" name="mdi:reddit" /></a
+		>
+		<a target="_blank" href="https://www.youtube.com/@PrismLabsDev"
+			><Icon class="w-7" name="mdi:youtube" /></a
+		>
+		<a target="_blank" href="https://www.patreon.com/PrismLabs"
+			><Icon class="w-7" name="mdi:patreon" /></a
+		>
+		<a target="_blank" href="https://dev.to/prismlabs"
+			><Icon class="w-7" name="mdi:dev-to" /></a
+		>
+	</div>
+</nav>
+
+<style></style>
